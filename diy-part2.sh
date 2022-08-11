@@ -18,5 +18,5 @@
 #sed -i 's/sed -i 's/root::0:0:99999:7/#sed -i 's/root::0:0:99999:7/g' package/lean/default-settings/files/zzz-default-settings
 
 # 5.修改默认主题
-#sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' feeds/luci/collections/luci/Makefile
 # 6.其他
